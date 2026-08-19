@@ -1,0 +1,27 @@
+{
+  "skill": "skill-audit",
+  "triggers_required": [
+    "score a skill",
+    "improve a skill",
+    "스킬 채점",
+    "스킬 개선",
+    "다국어 스킬",
+    "스킬 체크리스트",
+    "스킬 만들기",
+    "new skill"
+  ],
+  "needles": [
+    "Checklist",
+    "one locale per git branch",
+    "@ko",
+    "nested",
+    "bilingual file",
+    "--target",
+    "Same object",
+    "Spawn fallback",
+    "stock critiques",
+    "Observability",
+    "Host spawn",
+    "files vs host spawn"
+  ]
+}
