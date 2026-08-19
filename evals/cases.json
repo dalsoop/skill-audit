@@ -1,0 +1,24 @@
+{
+  "skill": "skill-audit",
+  "notes": "Static gate is python3 eval/run.py. Happy prompts match description triggers.",
+  "cases": [
+    {
+      "id": "happy-01-score",
+      "should_trigger": true,
+      "prompt": "score a skill and cut the pitch from SKILL.md",
+      "checks": { "preserve_tokens": ["Checklist"] }
+    },
+    {
+      "id": "happy-02-ko",
+      "should_trigger": true,
+      "prompt": "스킬 채점하고 다국어 스킬 체크리스트 돌려줘",
+      "checks": { "preserve_tokens": ["locale"] }
+    },
+    {
+      "id": "neg-01-typo",
+      "should_trigger": false,
+      "prompt": "이 함수 오타 한 글자만 고쳐줘",
+      "checks": {}
+    }
+  ]
+}

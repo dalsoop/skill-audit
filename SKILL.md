@@ -1,5 +1,7 @@
 ---
 name: skill-audit
+version: 1.4.1
+kind: skill
 metadata:
   version: "1.4.1"
 description: >-
